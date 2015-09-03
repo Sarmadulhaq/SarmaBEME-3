@@ -1,0 +1,23 @@
+package Bank;
+
+public class Bankaccount 
+{
+	public String coutomer_name,account_type;
+	public int deposit,widthdrawal;
+	private int balance=10000;
+	
+	public int depos()
+	{
+		balance=balance+deposit;
+		return balance;
+		
+	}
+	
+	public int widthdraw()
+	{
+		balance=balance-widthdrawal;
+		return balance;
+	}
+	
+
+}
