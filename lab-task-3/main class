@@ -1,0 +1,16 @@
+package cal;
+
+public class re {
+
+	public static void main(String[] args) 
+	{
+		calculator obj1 = new calculator();
+		obj1.res(obj1.add(2, 2));
+		obj1.res(obj1.sub(2, 2));
+		obj1.res(obj1.mul(4, 2));
+		obj1.res(obj1.div(2, 2));
+		
+
+	}
+
+}
