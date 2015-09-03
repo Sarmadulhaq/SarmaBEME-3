@@ -1,0 +1,23 @@
+package Bank;
+
+public class one {
+
+	public static void main(String[] args) 
+	{
+		Bankaccount obj1= new Bankaccount();
+		obj1.widthdrawal=2000;
+		obj1.deposit=3000;
+		obj1.account_type="SAVING";
+		obj1.coutomer_name="SARMADULHAQ";
+		System.out.println(obj1.coutomer_name);
+		System.out.println(obj1.account_type);
+		System.out.println(obj1.depos());
+		System.out.println(obj1.widthdraw());
+		
+				
+		
+		
+
+	}
+
+}
