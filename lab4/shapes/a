@@ -1,0 +1,25 @@
+package shapess;
+
+public class a
+{
+
+	public static void main(String[] args)	
+	{
+        shapes [ ] shapeList = new shapes[5];
+        shapeList[0] = new circle(3.0);
+        shapeList[1] = new Rectangle(3.0, 4.0);
+       /* shapeList[3] = new circle(2.5);
+        shapeList[4] = new square(5.0);*/
+        for (int i = 0; i < 2; i++)  
+        {
+        	System.out.print (shapeList[i].toString( ) + "  ");
+        	System.out.print (shapeList[i].area( ) + "  ");
+        	System.out.println (shapeList[i].perimeter( ));
+        }
+   }
+}
+
+
+
+
+
