@@ -1,0 +1,11 @@
+package database;
+
+public abstract class Uniname 
+{
+	protected String university;
+	
+	public Uniname (String name)
+	{
+		university=name;
+	}
+}
