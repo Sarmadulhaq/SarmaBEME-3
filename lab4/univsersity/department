@@ -1,0 +1,11 @@
+package database;
+
+public class departmentname extends Szabist 
+
+{
+	public departmentname(String name)
+	{
+		super (name);
+	}
+
+}
