@@ -1,0 +1,34 @@
+package database;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) 
+	
+	{
+		String studname,depart;
+		int ide,i;
+		Scanner scan = new Scanner(System.in);
+		Student[] students= new Student[2];
+		for (i=0;i<students.length;i++)
+		{
+			
+			System.out.println("studentname=");
+			studname=scan.next();
+			System.out.println("department=");
+			depart=scan.next();
+			System.out.println("Registration=");
+			ide=scan.nextInt();
+			students[i]= new Student(studname,ide,depart);
+			
+		}
+		
+		scan.close();
+		for(i=0;i<students.length;i++)
+		{
+			System.out.println(students[i].studentname + " " + students[i].Registrationnumber+ " "+students[i].department);
+				
+		}
+
+	}
+
+}
