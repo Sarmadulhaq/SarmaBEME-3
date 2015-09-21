@@ -1,0 +1,14 @@
+package database;
+
+public class Student extends departmentname 
+{
+	protected String studentname;
+	protected int Registrationnumber;
+	
+	public Student (String stname,int id,String department)
+	{
+		super (department);
+		studentname=stname;
+		Registrationnumber=id;
+	}
+}
