@@ -1,0 +1,17 @@
+package ticktick;
+
+public class main {
+
+	public static void main(String[] args) 
+	{
+		int count;
+		clock obj1=new clock();
+		
+		for(count=0;count<78;count++)
+		{
+			obj1.tick();
+			obj1.showTime();
+		}
+	}
+
+}
