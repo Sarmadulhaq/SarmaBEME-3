@@ -1,0 +1,14 @@
+package shapess;
+
+public abstract class shapes 
+
+{
+	protected String shapename;
+	public shapes (String name)
+	{
+		shapename=name;
+	}
+	
+	public abstract double area();
+	public abstract double  perimeter();
+}
