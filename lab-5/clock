@@ -1,0 +1,27 @@
+package ticktick;
+
+
+	public class clock  {
+	      private counter  hours, mins, secs;
+	      public clock( )
+	      {
+	    	  
+	    	  hours = new counter(24);
+	    	  mins = new counter(60);
+	    	  secs = new counter(60);
+	      }
+	      public void tick( ) {
+		secs.increment( );
+		if (secs.viewCount( ) == 0) {
+		       mins.increment( );
+		       if((secs.viewCount( )==0) && (mins.viewCount( ) == 0))
+			hours.increment( );
+		}
+}
+	      public void showTime()
+			{
+				System.out.println(hours.viewCount()+":"+mins.viewCount()+":"+secs.viewCount());
+			}
+}
+
+	      
