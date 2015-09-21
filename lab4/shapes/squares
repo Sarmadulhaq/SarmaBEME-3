@@ -1,0 +1,12 @@
+package shapess;
+
+public class square extends Rectangle	
+
+{
+	public square (double side)
+	{
+		super ("square");
+		lenght=width= side;
+	}
+
+}
