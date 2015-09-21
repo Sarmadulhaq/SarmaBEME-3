@@ -1,0 +1,12 @@
+package database;
+
+public class Szabist extends Uniname 
+{
+	protected String department;
+	public Szabist (String depart)
+	{
+		super ("Szabist");
+		department=depart;
+	}
+
+}
