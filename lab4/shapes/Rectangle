@@ -1,0 +1,30 @@
+package shapess;
+
+public class Rectangle extends shapes 	
+
+{
+	public double lenght,width;
+	public Rectangle (double ln,double wd )
+	{
+		super("Rectangle");
+		lenght=ln;
+		width=wd;
+			
+	}
+	
+	public double area()
+	{
+		return lenght*width;
+	}
+
+	public double perimeter()
+	{
+		return 2*(lenght+width);
+	}
+	
+	public Rectangle(String name)
+	{
+		super(name);
+	}
+	
+}
