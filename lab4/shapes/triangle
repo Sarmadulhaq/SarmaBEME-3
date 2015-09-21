@@ -1,0 +1,23 @@
+package shapess;
+
+public class Triangle extends shapes 
+{
+	public double a,b;
+	public Triangle (double c,double d)
+	{
+		super ("triangle");
+		a=c;
+		b=d;
+	}
+
+	public double area ()
+	{
+		return 0.5*(a*b);
+		
+	}
+	public double perimeter ()
+	{
+		return 3*(a*b);
+	}
+}
+
