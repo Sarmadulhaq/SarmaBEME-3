@@ -1,0 +1,53 @@
+
+public class List 
+{
+	private Node list,first,temp1;
+	public int nodecount=0;
+	
+	public void add(int y)
+	{
+		if(list==null)
+		{
+			list=new Node();
+			list.value=y;
+			list.next=null;
+			setFirst(list);
+		}
+		else
+		{
+			temp1=list;
+			list=new Node();
+			list.value=y;
+			list.next=null;
+			temp1.next=list;
+		}
+		nodecount++;
+	}
+	public void print()
+	{	
+		Node temp= first;
+		for(int u=0;u<nodecount;u++)
+		{
+			System.out.println(temp.value);
+			temp=temp.next;
+			
+		}
+	}
+	public int notecount()
+	{
+		return nodecount;
+	}
+	
+
+	public Node getFirst() {
+		return first;
+	}
+
+	public void setFirst(Node first) {
+		this.first = first;
+	}
+	
+	
+		
+
+}
