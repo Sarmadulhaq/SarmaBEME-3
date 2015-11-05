@@ -1,0 +1,22 @@
+package practice;
+
+public class person 
+{
+	public String firstname,lastname;
+	private static person st;
+	private person(String name, String lsname)
+	{
+		firstname=name;
+		lastname=lsname;
+	}
+	public static person getobject()
+	{
+		if(st==null)
+		{
+			st=new person("sarmad","ulhaq");
+			
+		}
+		return st;
+	}
+
+}
