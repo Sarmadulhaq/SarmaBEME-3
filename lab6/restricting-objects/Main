@@ -1,0 +1,21 @@
+package practice;
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		person st =person.getobject();
+		st.lastname = "ZAB";
+		System.out.println(st.lastname);
+		
+		
+		
+		person stl =person.getobject();
+		
+		
+		System.out.println(stl.lastname);
+		
+
+	}
+
+}
